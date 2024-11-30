@@ -29,7 +29,7 @@ d) Click Channel Sharing. Write down the Channel ID in a secure place.
 
 e) Click API Keys. Write down your Read and Write API Keys in a secure place.
 
-**Set Up ThingSpeak Analyses**
+**Set Up ThingSpeak Analyses**: This section will establish the plant area, height, and greenness calculations
 
 a) Click Apps>Matlab Analysis
 
@@ -37,7 +37,25 @@ b) Create a new Matlab Analysis and name it [calculate_plant_height]
 
 c) Open calculate_plant_height.m from this tutorial and paste the code into the Matlab Code section. 
 
-d) Change the [accessToken], [channelID], and [writeAPIKey] variables to represent your own.
+d) Change the [accessToken], [channelID], and [writeAPIKey] variables to represent your own. They are marked with comments "CHANGE HERE".
+
+e) do the same for calculate_plant_area.m and calculate_greenness.m
+
+**Set Up ThingSpeak TimeControl**: This section will automate height, area, and greenness calculations
+
+a) Click Apps>TimeControl>New
+
+b) Name the first one automate_plant_height_calculation
+
+c) Set the frequency to Recurring
+
+d) Set the reccurrece to Minute. Select Every 5 minutes from the drop-down.
+
+e) For Action, select MATLAB Analysis. 
+
+f) For Code to execute, select calculate_plant_height
+
+g) Repeat this process for [automate_plant_area_calculation] and [automate_plant_greenness_calculation]
 
 
 

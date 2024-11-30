@@ -82,7 +82,9 @@ This section enables the display of plant images and camera control features.
 3. Repeat this process for:
    - **display_top_view**
    - **Camera Frequency**
-     - In the JavaScript section, update the `[writeApiKey]` variable to match yours.
+   - In the JavaScript section, update the `[writeApiKey]` variable to match yours.
+4. Go back to the Channel Dashboard
+   - Find the plugins that you created, and edit each field with appropriate titles
 
 ---
 

@@ -6,4 +6,6 @@ Requirements before you begin:
 1) Components outlined in the CyberPlants User Manual
 2) ThingSpeak account (Free)
 3) Imgur account (Free)
-4) 
+4) [Postman]([url](https://www.postman.com/))
+
+

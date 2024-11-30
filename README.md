@@ -28,7 +28,7 @@ Ensure you have the following ready:
 2. **Create a New Channel**:
    - Navigate to: `Channels > New Channel`.
    - Enable the first five fields.
-   ![image](https://github.com/user-attachments/assets/8e0089ce-1eab-40b2-8fe1-a2d695e3a5bd)
+     ![image](https://github.com/user-attachments/assets/8e0089ce-1eab-40b2-8fe1-a2d695e3a5bd)
 3. **Record Channel Details**:
    - Go to `Channel Sharing` and write down your **Channel ID** in a secure place.
    - Go to `API Keys` and write down your **Read** and **Write API Keys** in a secure place.
@@ -68,8 +68,43 @@ This section automates the height, area, and greenness calculations.
 
 ---
 
+## Set Up ThingSpeak Plugins
+
+This section enables the display of plant images and camera control features.
+
+1. Navigate to `Apps > Plugins > New`.
+2. Create a Plugin named: **display_side_view**.
+   - Navigate to the `Plugins` folder in this directory, and enter the `display_side_view` folder.
+   - Replace the **HTML** and **CSS** code in the corresponding sections.
+   - Replace the **JavaScript** code, and update the `[accessToken]` variable with your **Imgur Access Token**.
+   - Select "Show on Channel(s)" and choose your channel.
+   - Save the Plugin.
+3. Repeat this process for:
+   - **display_top_view**
+   - **Camera Frequency**
+     - In the JavaScript section, update the `[writeApiKey]` variable to match yours.
+
+---
+
 ## Uploading Arduino Code
 
-Follow the steps outlined in this guide to set up your Arduino IDE: [Getting Started with Arduino Uno R4 Wi-Fi](https://docs.arduino.cc/tutorials/uno-r4-wifi/r4-wifi-getting-started/).
+1. Follow the steps outlined in this guide to set up your Arduino IDE: [Getting Started with Arduino Uno R4 Wi-Fi](https://docs.arduino.cc/tutorials/uno-r4-wifi/r4-wifi-getting-started/).
+2. Download **cyberplants_arduinocode.ino** from the Arduino Code folder in this repository.
+3. Open the file in the Arduino IDE:
+   - Update the Wi-Fi name and password in the credentials section.
+   - Replace **[access_token]** with your Imgur Access Token.
+   - Update the **read_api_key**, **write_api_key**, and **channel_id** with your ThingSpeak details.
+4. Upload the code to the Arduino.
+
+---
+
+## Test Your System!
+
+1. Navigate to your ThingSpeak Dashboard and click the "Manual Image Capture" button.
+   - An image will be taken and uploaded.
+   - Refresh the page to view the images.
+   - Analytical data updates every 5 minutes (as limited by ThingSpeak).
+2. Set the Timer Frequency to your desired frequency:
+   - The cameras will capture an image, and the analytical data will update at this rate.
 
 ---

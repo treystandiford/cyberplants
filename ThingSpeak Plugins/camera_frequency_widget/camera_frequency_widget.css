@@ -1,0 +1,115 @@
+<style type="text/css">
+  /* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+/* Header styling */
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form and control elements */
+label, button, input {
+  display: block;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: white;
+  background-color: #0073e6;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Feedback message styling */
+#response {
+  margin-top: 15px;
+  font-style: italic;
+  color: #006400;
+  text-align: center;
+}
+
+/* Timer container and elements */
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.circular-chart {
+  width: 120px;
+  height: 120px;
+  transform: rotate(-90deg); /* Rotate for circular countdown */
+}
+
+.timer-circle {
+  fill: none;
+  stroke: #0073e6;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-dasharray: 100 100;
+  transition: stroke-dasharray 0.3s ease;
+}
+
+#timer-text {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+}
+
+/* Additional styling for layout and alignment */
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin: 20px 0;
+}
+
+</style>
+
+
+
+
+

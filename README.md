@@ -13,6 +13,10 @@ Ensure you have the following ready:
 4. **Postman**: [Download for free](https://www.postman.com/).
 5. **Arduino IDE**: [Download for free](https://www.arduino.cc/en/software).
 
+##Note: 
+
+Changes that need to be made to the provided code are marked with "PLACE". Search through each file and replace necessary values for each file. 
+
 ---
 
 ## Set Up Imgur Repository

@@ -1,4 +1,4 @@
-# CyberPlants
+# CyberPlants Automated Hydroponics Monitoring and Control System
 
 This repository contains instructions for setting up **ThingSpeak** and **Imgur** integration with a camera-enabled Arduino Uno R4 Wi-Fi.
 

@@ -46,6 +46,7 @@ This section establishes the calculations for plant area, height, and greenness.
    - **[accessToken]**
    - **[channelID]**
    - **[writeAPIKey]**
+   - **[distance_to_plant]**
 5. Repeat the process for:
    - **calculate_plant_area.m**
    - **calculate_greenness.m**

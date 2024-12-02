@@ -4,14 +4,25 @@ This repository contains instructions for setting up **ThingSpeak** and **Imgur*
 
 ---
 
+## Hardware Requirements
+
+Ensure you have the following hardware ready:
+1. **[Arduino Uno R4 Wi-Fi](https://store.arduino.cc/products/uno-r4-wifi)**  
+2. **[ArduCam Mini 2MP Plus](https://www.arducam.com/product/arducam-2mp-spi-camera-b0067-arduino/)**  
+3. **[Jumper Wires](https://www.amazon.com/EDGELEC-Breadboard-Optional-Assorted-Multicolored/dp/B07GD3KDG9?dib=eyJ2IjoiMSJ9.ARCf8Zjxb1rf-cirLAcgSPqJDTpLsoPXsZMKm5Ox2vFoC0zj9Op4AOOnD0R_g79adQTcAKbplwu0Yz5ffr8vyGDxRPR408nqnbi-_Y-65AxZ3yPW7j-iT4ZOHKgx1XnVW1U-N25yIy39aDcTtyjQvUyWN0mckWizq8ArQeIoD--GEYd8tubYrjacI9TcJNWtGmPSvZEsPeICrbqgxZRlI69H1pDyuKlv_XSD3JqVFP0.KZ7-zTxqR-EtHHiuj_oSUHB2Prq7_L0vrnWHaJCn5O8&dib_tag=se&keywords=long%2Bjumper%2Bwires&qid=1733174193&sr=8-3&th=1)**  
+4. **Camera and Arduino Stand**: Manufactured by the team at CyberPlants  
+
+---
+
 ## Requirements Before You Begin
 
 Ensure you have the following ready:
-1. **Hardware Assembly**: Follow the steps in the CyberPlants User Manual.
-2. **ThingSpeak Account**: [Sign up for free](https://thingspeak.mathworks.com/).
-3. **Imgur Account**: [Sign up for free](https://imgur.com/).
-4. **Postman**: [Download for free](https://www.postman.com/).
-5. **Arduino IDE**: [Download for free](https://www.arduino.cc/en/software).
+1. **[Hardware Assembly](#)**: Follow the steps in the CyberPlants User Manual.  
+2. **[ThingSpeak Account](https://thingspeak.mathworks.com/)**: Sign up for free.  
+3. **[Imgur Account](https://imgur.com/)**: Sign up for free.  
+4. **[Postman](https://www.postman.com/)**: Download for free.  
+5. **[Arduino IDE](https://www.arduino.cc/en/software)**: Download for free.  
+
 
 **Note:** 
 

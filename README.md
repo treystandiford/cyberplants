@@ -9,8 +9,10 @@ This repository contains instructions for setting up **ThingSpeak** and **Imgur*
 Ensure you have the following hardware ready:
 1. **[Arduino Uno R4 Wi-Fi](https://store.arduino.cc/products/uno-r4-wifi)**  
 2. **[ArduCam Mini 2MP Plus](https://www.arducam.com/product/arducam-2mp-spi-camera-b0067-arduino/)**  
-3. **[Jumper Wires](https://www.amazon.com/EDGELEC-Breadboard-Optional-Assorted-Multicolored/dp/B07GD3KDG9?dib=eyJ2IjoiMSJ9.ARCf8Zjxb1rf-cirLAcgSPqJDTpLsoPXsZMKm5Ox2vFoC0zj9Op4AOOnD0R_g79adQTcAKbplwu0Yz5ffr8vyGDxRPR408nqnbi-_Y-65AxZ3yPW7j-iT4ZOHKgx1XnVW1U-N25yIy39aDcTtyjQvUyWN0mckWizq8ArQeIoD--GEYd8tubYrjacI9TcJNWtGmPSvZEsPeICrbqgxZRlI69H1pDyuKlv_XSD3JqVFP0.KZ7-zTxqR-EtHHiuj_oSUHB2Prq7_L0vrnWHaJCn5O8&dib_tag=se&keywords=long%2Bjumper%2Bwires&qid=1733174193&sr=8-3&th=1)**  
-4. **Camera and Arduino Stand**: Manufactured by the team at CyberPlants  
+3. **[Jumper Wires](https://www.amazon.com/EDGELEC-Breadboard-Optional-Assorted-Multicolored/dp/B07GD3KDG9?dib=eyJ2IjoiMSJ9.ARCf8Zjxb1rf-cirLAcgSPqJDTpLsoPXsZMKm5Ox2vFoC0zj9Op4AOOnD0R_g79adQTcAKbplwu0Yz5ffr8vyGDxRPR408nqnbi-_Y-65AxZ3yPW7j-iT4ZOHKgx1XnVW1U-N25yIy39aDcTtyjQvUyWN0mckWizq8ArQeIoD--GEYd8tubYrjacI9TcJNWtGmPSvZEsPeICrbqgxZRlI69H1pDyuKlv_XSD3JqVFP0.KZ7-zTxqR-EtHHiuj_oSUHB2Prq7_L0vrnWHaJCn5O8&dib_tag=se&keywords=long%2Bjumper%2Bwires&qid=1733174193&sr=8-3&th=1)**
+4. 5. **[Breadboard](https://www.amazon.com/breadboard/s?k=breadboard)**  
+
+5. **Camera and Arduino Stand**: Manufactured by the team at CyberPlants  
 
 ---
 

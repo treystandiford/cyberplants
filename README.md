@@ -1,29 +1,39 @@
 # CyberPlants Automated Hydroponics Monitoring and Control System
 
-This repository contains instructions for setting up **ThingSpeak** and **Imgur** integration with a camera-enabled Arduino Uno R4 Wi-Fi.
+This repository contains instructions for setting up **ThingSpeak** and **Imgur** integration and system assembly for a circuit with an Arduino Uno R4 Wi-Fi and two ArduCam camera modules.
 
 ---
 
-## Hardware Requirements
+## Hardware Setup
 
 Ensure you have the following hardware ready:
 1. **[Arduino Uno R4 Wi-Fi](https://store.arduino.cc/products/uno-r4-wifi)**  
-2. **[ArduCam Mini 2MP Plus](https://www.arducam.com/product/arducam-2mp-spi-camera-b0067-arduino/)**  
+2. **[ArduCam Mini 2MP Plus](https://www.arducam.com/product/arducam-2mp-spi-camera-b0067-arduino/)** (2x)
 3. **[Jumper Wires](https://www.amazon.com/EDGELEC-Breadboard-Optional-Assorted-Multicolored/dp/B07GD3KDG9?dib=eyJ2IjoiMSJ9.ARCf8Zjxb1rf-cirLAcgSPqJDTpLsoPXsZMKm5Ox2vFoC0zj9Op4AOOnD0R_g79adQTcAKbplwu0Yz5ffr8vyGDxRPR408nqnbi-_Y-65AxZ3yPW7j-iT4ZOHKgx1XnVW1U-N25yIy39aDcTtyjQvUyWN0mckWizq8ArQeIoD--GEYd8tubYrjacI9TcJNWtGmPSvZEsPeICrbqgxZRlI69H1pDyuKlv_XSD3JqVFP0.KZ7-zTxqR-EtHHiuj_oSUHB2Prq7_L0vrnWHaJCn5O8&dib_tag=se&keywords=long%2Bjumper%2Bwires&qid=1733174193&sr=8-3&th=1)**
-4. **[Breadboard](https://www.amazon.com/breadboard/s?k=breadboard)**  
+   - One set of long (50cm) wire and one set of short (10cm) wires
+5. **[Breadboard](https://www.amazon.com/breadboard/s?k=breadboard)**  
 
-5. **Camera and Arduino Stand**: Manufactured by the team at CyberPlants  
+6. **Camera and Arduino Stand**: Manufactured by the team at CyberPlants
 
 ---
 
-## Requirements Before You Begin
+##  Circuit Diagram
+
+1. Connect the camera modules to the Arduino Uno R4 Wi-fi as shown below:
+
+![image](https://github.com/user-attachments/assets/b119f0be-b8dc-4c37-8591-9a2411cdd2c9)
+
+---
+
+## Software Setup
 
 Ensure you have the following ready:
-1. **[Hardware Assembly](#)**: Follow the steps in the CyberPlants User Manual.  
-2. **[ThingSpeak Account](https://thingspeak.mathworks.com/)**: Sign up for free.  
-3. **[Imgur Account](https://imgur.com/)**: Sign up for free.  
-4. **[Postman](https://www.postman.com/)**: Download for free.  
-5. **[Arduino IDE](https://www.arduino.cc/en/software)**: Download for free.  
+1. **[Hardware Assembly](#)**: Follow the steps shown above in **Hardware Setup Section**
+   - Plug the Arduino Uno R4 Wi-Fi into your laptop.
+3. **[ThingSpeak Account](https://thingspeak.mathworks.com/)**: Sign up for free.  
+4. **[Imgur Account](https://imgur.com/)**: Sign up for free.  
+5. **[Postman](https://www.postman.com/)**: Download for free.  
+6. **[Arduino IDE](https://www.arduino.cc/en/software)**: Download for free.  
 
 
 **Note:** 
